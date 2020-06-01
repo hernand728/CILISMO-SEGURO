@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Nombre de la App</title>
+        <title>Cilcismo-seguro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/themes/app.min.css">
         <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
@@ -13,33 +13,226 @@
     </head>
     <body>
         <div data-role="page" id="primera">
-
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
-
             <div role="main" class="ui-content">
-                <p>Contenido de la página</p>
-            </div><!-- /content -->
-
-            <div data-role="footer" data-position="fixed">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
+              <label for="text-basic">Ubicación</label>
+              <input type="text" name="text-basic" id="text-basic" value="">
+              <label for="text-basic">Destino</label>
+              <input type="text" name="text-basic"id="text-basic" value="">
+              <a href="#" class="ui-btn">Iniciar</a>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+          </div><!-- /content -->
+          
+          <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" class="ui-btn-active">One</a></li>
+                <li><a href="#segunda">Two</a></li>
+                <li><a href="#tercera">Three</a></li>
+            </ul>
+        </div><!-- /navbar --> 
+        </div>
+          
         </div><!-- /page -->
         
+      
+    
         <div data-role="page" id="segunda">
-
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
-
             <div role="main" class="ui-content">
-                <p>Contenido de la página.</p>
+              <ul data-role="listview">
+    <li><a href="#cuarta">Ruta 1</a></li>
+    <li><a href="#quinta">Ruta 2</a></li>
+    <li><a href="#sexta">Ruta 3</a></li>
+    </ul>
+    <div>
+    <a href="#" class="ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all">No text</a>
+     </div>
+              
             </div><!-- /content -->
-
-            <div data-role="footer">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
+          <div data-role="footer" data-position="fixed">
+             <div data-role="navbar">
+    <ul>
+        <li><a href="#primera">One</a></li>
+        <li><a href="#segunda" class="ui-btn-active">Two</a></li>
+        <li><a href="#tercera">Three</a></li>
+    </ul>
+</div><!-- /navbar -->
+          </div>
         </div><!-- /page -->
-    </body>
+    
+  <div data-role="page" id="tercera">
+            <div role="main" class="ui-content">
+              <ul data-role="listview">
+    <li><a href="#septima">Ruta 1</a></li>
+    <li><a href="#octava">Ruta 2</a></li>
+    <li><a href="#novena">Ruta 3</a></li>
+    </ul>
+            </div><!-- /content -->
+          <div data-role="footer" data-position="fixed">
+             <div data-role="navbar">
+    <ul>
+        <li><a href="#primera">One</a></li>
+        <li><a href="#segunda">two</a></li>
+        <li><a href="#tercera" class="ui-btn-active">Three</a></li>
+    </ul>
+</div><!-- /navbar -->
+          </div>
+        </div><!-- /page -->
+  
+  <div data-role="page" id="cuarta">
+    <div data-role="header">
+      <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+  </div>
+  <div>
+    <h1>
+      Ruta 1
+    </h1>
+    <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+    </div>
+    <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera">One</a></li>
+                <li><a href="#segunda" class="ui-btn-active">Two</a></li>
+                <li><a href="#tercera">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div>
+  
+   <div data-role="page" id="quinta">
+     <div data-role="header">
+      <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+  </div>
+   <div>
+     <h1>
+       Ruta 2
+     </h1>
+     </div>
+     <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+     <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" >One</a></li>
+                <li><a href="#segunda" class="ui-btn-active" >Two</a></li>
+                <li><a href="#tercera">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+     </div>
+       
+    <div data-role="page" id="sexta">
+      <div data-role="header">
+      <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+  </div>
+   <div>
+     <h1>
+       Ruta 3
+     </h1>
+     </div>
+     <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+     <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" >One</a></li>
+                <li><a href="#segunda" class="ui-btn-active" >Two</a></li>
+                <li><a href="#tercera">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+     </div>   
+       
+     <div data-role="page" id="septima">
+      <div data-role="header">
+         <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+       </div> 
+       <div>
+         <h1>
+           Ruta 1
+         </h1>
+       </div>
+       <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+       <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" >One</a></li>
+                <li><a href="#segunda">Two</a></li>
+                <li><a href="#tercera" class="ui-btn-active">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+      </div>  
+       
+       
+   <div data-role="page" id="octava">
+      <div data-role="header">
+         <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+       </div> 
+       <div>
+         <h1>
+           Ruta 1
+         </h1>
+       </div>
+       <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+       <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" >One</a></li>
+                <li><a href="#segunda">Two</a></li>
+                <li><a href="#tercera" class="ui-btn-active">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+      </div>      
+       
+       
+      <div data-role="page" id="novena">
+      <div data-role="header">
+         <a href="#segunda" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all">No text</a>
+       </div> 
+       <div>
+         <h1>
+           Ruta 1
+         </h1>
+       </div>
+       <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127256.3711957447!2d-74.09115270074403!3d4.636567969538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1589695522201!5m2!1ses!2sco" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             
+    </div>
+       <div data-role="footer">
+              <div data-role="navbar">
+            <ul>
+                <li><a href="#primera" >One</a></li>
+                <li><a href="#segunda">Two</a></li>
+                <li><a href="#tercera" class="ui-btn-active">Three</a></li>
+            </ul>
+        </div><!-- /navbar -->
+      </div>       
+       
+       
+       
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  </body>
 </html>
